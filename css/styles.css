@@ -250,12 +250,48 @@ img{
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  
-}
+  }
+
 .description-block{
   padding: 30px 0;
 }
 
+/* .socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socials-item {
+  display: flex;
+}
+
+.socials-link {
+  display: block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--blue-color);
+}
+.socials-icon {
+  fill: currentColor;
+}
+
+.socials-link:hover > .socials-icon {
+  fill: var(--white-text-color);
+}
+.social-link:focus > .socials-icon {
+  fill: var(--white-text-color);
+} */
 /* Footer */
 
 .footer {
