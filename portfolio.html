@@ -36,10 +36,20 @@
         </nav>
         <ul class="contacts">
           <li class="contacts-item">
-            <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-link link" href="mailto:info@devstudio.com">
+              <svg class="nav-contacts-icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="contacts-item">
-            <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-link link" href="tel:+380961111111">
+              <svg class="nav-contacts-icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -59,7 +69,7 @@
           </ul>
           <ul class="gallery">
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img1.jpg" alt="Веб сайт" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Технокряк</h2>
@@ -68,7 +78,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img2.jpg" alt="Баскетбол" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
@@ -77,7 +87,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img3.jpg" alt="Логотип ресторана" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Ресторан Seafood</h2>
@@ -86,7 +96,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img4.jpg" alt="Наушники" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Проект Prime</h2>
@@ -95,7 +105,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img5.jpg" alt="Коробки" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Проект Boxes</h2>
@@ -104,7 +114,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img6.jpg" alt="Монитор" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Inspiration has no Borders</h2>
@@ -113,7 +123,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img7.jpg" alt="Книга" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Издание Limited Edition</h2>
@@ -122,7 +132,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img8.jpg" alt="Этикетка" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Проект LAB</h2>
@@ -131,7 +141,7 @@
               </a>
             </li>
             <li class="gallery-item">
-              <a class="link" href="">
+              <a class="gallery-link link" href="">
                 <img src="./images/img9.jpg" alt="Ноутбук" width="370" height="294" />
                 <div class="text-block">
                   <h2 class="gallery-title">Growing Business</h2>
@@ -144,27 +154,58 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="blue-logo link" href="">Web<span class="white-logo">Studio</span> </a>
-        <address class="address">
-          <ul>
-            <li class="address-item">
-              <a
-                class="address-map link"
-                href="https://goo.gl/maps/dqnTAqHNVVHQZRsw9"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="container footer-container">
+        <div class="logo-container">
+          <a class="blue-logo link" href="">Web<span class="white-logo">Studio</span> </a>
+          <address class="address">
+            <ul class="list">
+              <li class="address-item">
+                <a
+                  class="address-map link"
+                  href="https://goo.gl/maps/dqnTAqHNVVHQZRsw9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address-item">
+                <a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="footer-text">присоединяйтесь</p>
+          <ul class="socials-list">
+            <li class="socials-item">
+              <a class="socials-link-footer" href="">
+                <svg class="icon-socials" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li class="address-item">
-              <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="socials-item">
+              <a class="socials-link-footer" href="">
+                <svg class="icon-socials" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use></svg
+              ></a>
             </li>
-            <li class="address-item">
-              <a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="socials-item">
+              <a class="socials-link-footer" href="">
+                <svg class="icon-socials" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="socials-item">
+              <a class="socials-link-footer" href="">
+                <svg class="icon-socials" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
